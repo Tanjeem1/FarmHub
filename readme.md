@@ -5,7 +5,7 @@ A farm management platform for an agritech company.
 
 ## Setup
 
-- Clone: git clone <repo-url>
+-Clone: git clone <repo-url>
 
 -Navigate: cd core
 
@@ -93,27 +93,27 @@ https://documenter.getpostman.com/view/39770088/2sB3BLkTT1
 
 ## API Routes
 
--/api/users/ (SuperAdmin: list, create)
+/api/users/ (SuperAdmin: list, create)
 
--/api/users/<pk>/ (SuperAdmin: retrieve, update, delete)
+/api/users/<pk>/ (SuperAdmin: retrieve, update, delete)
 
--/api/farms/ (SuperAdmin, Agent: list, create)
+/api/farms/ (SuperAdmin, Agent: list, create)
 
--/api/farms/<pk>/ (SuperAdmin, Agent: retrieve, update, delete)
+/api/farms/<pk>/ (SuperAdmin, Agent: retrieve, update, delete)
 
--/api/cows/ (SuperAdmin, Agent, Farmer: list, create)
+/api/cows/ (SuperAdmin, Agent, Farmer: list, create)
 
--/api/cows/<pk>/ (SuperAdmin, Farmer: retrieve, update, delete)
+/api/cows/<pk>/ (SuperAdmin, Farmer: retrieve, update, delete)
 
--/api/activities/ (SuperAdmin, Agent, Farmer: list, create)
+/api/activities/ (SuperAdmin, Agent, Farmer: list, create)
 
--/api/activities/<pk>/ (SuperAdmin, Agent, Farmer: retrieve, update, delete)
+/api/activities/<pk>/ (SuperAdmin, Agent, Farmer: retrieve, update, delete)
 
--/api/milk-productions/ (SuperAdmin, Agent, Farmer: list, create)
+/api/milk-productions/ (SuperAdmin, Agent, Farmer: list, create)
 
--/api/milk-productions/<pk>/ (SuperAdmin, Agent, Farmer: retrieve, update, delete)
+/api/milk-productions/<pk>/ (SuperAdmin, Agent, Farmer: retrieve, update, delete)
 
--/api/milk-reports/ (SuperAdmin, Agent: list)
+/api/milk-reports/ (SuperAdmin, Agent: list)
 
 
 
